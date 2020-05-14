@@ -1,0 +1,159 @@
+[
+  {
+    "id": 0,
+    "title": "Происхождение",
+    "author": "Дэн Браун",
+    "image": "https://reading-books.me/uploads/posts/2017-10/1507546666_proisxozhdenie.jpg",
+    "price": 8,
+    "rating": 3
+  },
+  {
+    "id": 1,
+    "title": "1984",
+    "author": "Джордж Оруэлл",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRCr4ihGQ3ToZBGEN9blRjkQSLDtbptPmvwdu5bF2NvxUqYqkkp&usqp=CAU",
+    "price": 1.5,
+    "rating": 5
+  },
+  
+  {
+    "id": 3,
+    "title": "Книга о разнообразии мира",
+    "author": "Марко Поло",
+    "image": "https://img.yakaboo.ua/media/catalog/product/cache/1/image/398x565/234c7c011ba026e66d29567e1be1d1f7/i/m/img925_1_38.jpg",
+    "price": 7,
+    "rating": 3
+  },
+  {
+    "id": 4,
+    "title": "Черный лебедь",
+    "author": "Нассим Николас Талеб",
+    "image": "https://img.yakaboo.ua/media/catalog/product/cache/1/image/398x565/234c7c011ba026e66d29567e1be1d1f7/5/0/502855_6415257.jpg",
+    "price": 7,
+    "rating": 1
+  },
+  {
+    "id": 5,
+    "title": "100 лет одиночества",
+    "author": "Габриэль Гарсиа Маркес",
+    "image": "https://buklya.com/wp-content/uploads/2017/09/IMG_7507.jpg",
+    "price": 4,
+    "rating": 0
+  },
+  
+  {
+    "id": 7,
+    "title": "iPhuck 10",
+    "author": "Виктор Пелевин",
+    "image": "https://s1.livelib.ru/boocover/1002586414/200/5836/boocover.jpg",
+    "price": 6,
+    "rating": 0
+  },
+  {
+    "id": 8,
+    "title": "Искусство при свете совести",
+    "author": "Марина Цветаева",
+    "image": "https://img.yakaboo.ua/media/catalog/product/cache/1/image/398x565/234c7c011ba026e66d29567e1be1d1f7/i/m/img969_1_37.jpg",
+    "price": 3,
+    "rating": 5
+  },
+  {
+    "id": 9,
+    "title": "Дневник писателя",
+    "author": "Федор Достаевский",
+    "image": "https://img.yakaboo.ua/media/catalog/product/cache/1/image/398x565/234c7c011ba026e66d29567e1be1d1f7/2/6/264102_20135052.jpg",
+    "price": 2,
+    "rating": 2
+  },
+  {
+    "id": 10,
+    "title": "Магия утра. Как первый час дня определяет ваш успех",
+    "author": "Хэл Элрод",
+    "image": "https://img.yakaboo.ua/media/catalog/product/cache/1/image/398x565/234c7c011ba026e66d29567e1be1d1f7/1/0/1014818782_1.jpg",
+    "price": 12,
+    "rating": 1
+  },
+  {
+    "id": 11,
+    "title": "Эгоисти́чный ген",
+    "author": "Ричард Докинз",
+    "image": "https://45.img.avito.st/640x480/5107682345.jpg",
+    "price": 9,
+    "rating": 2
+  },
+  {
+    "id": 12,
+    "title": "Ведьмак (сборник)",
+    "author": "Анджей Сапковский",
+    "image": "https://img.yakaboo.ua/media/catalog/product/cache/1/image/398x565/234c7c011ba026e66d29567e1be1d1f7/1/4/1431_5.jpg",
+    "price": 7,
+    "rating": 3
+  },
+  {
+    "id": 13,
+    "title": "Атлант расправил плечи",
+    "author": "Айн Рэнд",
+    "image": "https://img.yakaboo.ua/media/catalog/product/cache/1/image/398x565/234c7c011ba026e66d29567e1be1d1f7/1/6/1695e2d6ed5345d1e988e6971703afd0.jpg",
+    "price": 11,
+    "rating": 2
+  },
+  {
+    "id": 14,
+    "title": "Озадачник. 133 вопроса на знание логики",
+    "author": "Александра Маринина",
+    "image": "https://img.yakaboo.ua/media/catalog/product/cache/1/image/398x565/234c7c011ba026e66d29567e1be1d1f7/4/0/401_14.jpg",
+    "price": 12,
+    "rating": 0
+  },
+  {
+    "id": 15,
+    "title": "Исчезнувшая",
+    "author": "Гиллиан Флинн",
+    "image": "https://img.yakaboo.ua/media/catalog/product/cache/1/image/398x565/234c7c011ba026e66d29567e1be1d1f7/4/5/459136_28589076.jpg",
+    "price": 14,
+    "rating": 4
+  },
+  {
+    "id": 17,
+    "title": "Белые ночи",
+    "author": "Федор Достоевский",
+    "image": "https://img.yakaboo.ua/media/catalog/product/cache/1/image/398x565/234c7c011ba026e66d29567e1be1d1f7/8/4/841060_front.jpg",
+    "price": 16,
+    "rating": 4
+  },
+  {
+    "id": 18,
+    "title": "Сын",
+    "author": "Ю Несбё",
+    "image": "https://img.yakaboo.ua/media/catalog/product/cache/1/image/398x565/234c7c011ba026e66d29567e1be1d1f7/1/1/11_20_251.jpg",
+    "price": 5,
+    "rating": 5
+  },
+  {
+    "id": 19,
+    "title": "Как тренировать память. Не думайте о памяти – лучше используйте ее на все сто!",
+    "author": "Джонатан Хэнкок",
+    "image": "https://cdn1.ozone.ru/s3/multimedia-1/6013358845.jpg",
+    "price": 9,
+    "rating": 5
+  },
+  {
+    "id": 20,
+    "title": "Transcend. Девять шагов на пути к вечной жизни",
+    "author": "Терри Гроссман",
+    "image": "https://www.mann-ivanov-ferber.ru/assets/images/covers/66/14866/1.00x-thumb.png",
+    "price": 9,
+    "rating": 5
+  },
+  {
+    "id": 21,
+    "title": "Семь историй киевского метро",
+    "author": "Олег Тоцкий",
+    "image": "https://img.yakaboo.ua/media/catalog/product/cache/1/image/398x565/234c7c011ba026e66d29567e1be1d1f7/0/0/00_11_18.jpg",
+    "price": 9,
+    "rating": 5
+  }
+]
+
+
+
