@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "./static/css/main.d3aaa3ee.chunk.css",
-    "main.js": "./static/js/main.07f72d01.chunk.js",
-    "main.js.map": "./static/js/main.07f72d01.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.a7537bce.js",
-    "runtime-main.js.map": "./static/js/runtime-main.a7537bce.js.map",
-    "static/css/2.eec0e34d.chunk.css": "./static/css/2.eec0e34d.chunk.css",
-    "static/js/2.92d804ad.chunk.js": "./static/js/2.92d804ad.chunk.js",
-    "static/js/2.92d804ad.chunk.js.map": "./static/js/2.92d804ad.chunk.js.map",
-    "index.html": "./index.html",
-    "precache-manifest.663d4f0ab5814741a705c4c07f94998e.js": "./precache-manifest.663d4f0ab5814741a705c4c07f94998e.js",
-    "service-worker.js": "./service-worker.js",
-    "static/css/2.eec0e34d.chunk.css.map": "./static/css/2.eec0e34d.chunk.css.map",
-    "static/css/main.d3aaa3ee.chunk.css.map": "./static/css/main.d3aaa3ee.chunk.css.map",
-    "static/js/2.92d804ad.chunk.js.LICENSE.txt": "./static/js/2.92d804ad.chunk.js.LICENSE.txt",
-    "static/media/semantic.min.css": "./static/media/outline-icons.ef60a4f6.woff"
+    "main.css": "/nomen1/online-shop/static/css/main.d3aaa3ee.chunk.css",
+    "main.js": "/nomen1/online-shop/static/js/main.7b40bd1b.chunk.js",
+    "main.js.map": "/nomen1/online-shop/static/js/main.7b40bd1b.chunk.js.map",
+    "runtime-main.js": "/nomen1/online-shop/static/js/runtime-main.3c8fda30.js",
+    "runtime-main.js.map": "/nomen1/online-shop/static/js/runtime-main.3c8fda30.js.map",
+    "static/css/2.d18e6be8.chunk.css": "/nomen1/online-shop/static/css/2.d18e6be8.chunk.css",
+    "static/js/2.92d804ad.chunk.js": "/nomen1/online-shop/static/js/2.92d804ad.chunk.js",
+    "static/js/2.92d804ad.chunk.js.map": "/nomen1/online-shop/static/js/2.92d804ad.chunk.js.map",
+    "index.html": "/nomen1/online-shop/index.html",
+    "precache-manifest.c5208a48f0a3bb05fa6c8d9a0b3e20da.js": "/nomen1/online-shop/precache-manifest.c5208a48f0a3bb05fa6c8d9a0b3e20da.js",
+    "service-worker.js": "/nomen1/online-shop/service-worker.js",
+    "static/css/2.d18e6be8.chunk.css.map": "/nomen1/online-shop/static/css/2.d18e6be8.chunk.css.map",
+    "static/css/main.d3aaa3ee.chunk.css.map": "/nomen1/online-shop/static/css/main.d3aaa3ee.chunk.css.map",
+    "static/js/2.92d804ad.chunk.js.LICENSE.txt": "/nomen1/online-shop/static/js/2.92d804ad.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/nomen1/online-shop/static/media/outline-icons.ef60a4f6.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.a7537bce.js",
-    "static/css/2.eec0e34d.chunk.css",
+    "static/js/runtime-main.3c8fda30.js",
+    "static/css/2.d18e6be8.chunk.css",
     "static/js/2.92d804ad.chunk.js",
     "static/css/main.d3aaa3ee.chunk.css",
-    "static/js/main.07f72d01.chunk.js"
+    "static/js/main.7b40bd1b.chunk.js"
   ]
 }
