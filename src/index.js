@@ -9,13 +9,14 @@ import 'semantic-ui-css/semantic.min.css'
 import BrowserRouter from 'react-router-dom/BrowserRouter'
 
 ReactDOM.render(
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
   <React.StrictMode>
      <Provider store={store}>
-     <BrowserRouter basename={process.env.PUBLIC_URL}>
-     </BrowserRouter>
+     
     <App />
     </Provider>
-  </React.StrictMode>,
+  </React.StrictMode>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
