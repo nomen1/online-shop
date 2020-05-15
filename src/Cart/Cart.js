@@ -1,5 +1,5 @@
 import React from "react";
-import { Item, Button } from "semantic-ui-react";
+import { Item, Button, List } from "semantic-ui-react";
 
 const Cart = (props) => {
   const handleClick = (id) => {
@@ -29,7 +29,12 @@ const Cart = (props) => {
     );
   });
 
-  return <Item.Group>{items}</Item.Group>;
+  return <Item.Group>
+      <List.Content>
+        <List.Header>Корзина</List.Header>
+        
+      </List.Content>
+    {items}</Item.Group>;
 };
 
 export default Cart;

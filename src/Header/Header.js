@@ -1,6 +1,5 @@
 import React from 'react';
 import {Menu, Icon, Popup} from "semantic-ui-react"
-import { connect } from "react-redux";
 import Cart from "./../Cart/CartContainer"
 
 
