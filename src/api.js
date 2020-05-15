@@ -10,7 +10,7 @@ export const booksAPI = {
 
     getBooks(){
 
-        return axios.get('/books.json')
+        return axios.get("https://nomen1.github.io/online-shop/books.json")
 
     }
 }
