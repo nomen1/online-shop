@@ -9,7 +9,7 @@ import 'semantic-ui-css/semantic.min.css'
 import BrowserRouter from 'react-router-dom/BrowserRouter'
 
 ReactDOM.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <BrowserRouter basename={"https://nomen1.github.io/online-shop"}>
   <React.StrictMode>
      <Provider store={store}>
      
