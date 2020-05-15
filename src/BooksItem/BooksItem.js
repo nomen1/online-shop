@@ -9,10 +9,15 @@ import {Card, Image, Icon, Button}  from "semantic-ui-react"
 
 
 const BooksItem = (props) => {
-  const handleClick = (book)=>{
-   
-props.addToCart(book)
-  }
+
+const handleClick = (book)=>{
+  
+  props.addToCart({
+    product:book,
+    count:1
+  })
+}
+
     return (
       
         <Card itemsPerRow={4}>
@@ -30,9 +35,7 @@ props.addToCart(book)
            {props.book.price}
           </a>
         </Card.Content>
-        <Button  onClick={()=> {handleClick(props.book)}}
-        basic color='green'>
-      Добавить в корзину
+        <Button onClick={()=> {handleClick(props.book)}} color='green'> Добавить в корзину
     </Button>
       </Card>
     

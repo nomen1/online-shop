@@ -4,7 +4,8 @@ import Filter from "./Filter";
 
 const mapStateToProps = (state) => {
   return {
-    query: state.filter.rearchQuery
+    query: state.filter.rearchQuery,
+    filter: state.filter.filter
   };
 };
 

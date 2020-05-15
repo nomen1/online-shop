@@ -7,9 +7,11 @@ import Header from "./Header"
 const mapStateToProps = (state) => {
     return {
       totalPrice: state.cart.cartBooks.reduce((total, book)=>{ 
-  return total + book.price
+  return total + (book.price * book.count)
       },0),
-      count: state.cart.cartBooks.length
+      count: state.cart.cartBooks.reduce((total, book)=>{ 
+  return total + book.count
+      },0)
     }
   
   };

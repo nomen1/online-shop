@@ -4,7 +4,6 @@ import React from "react";
 const Filter = (props) => {
   const { setFilter, setQuery } = props;
   const handleItemClick = (filter) => {
-    debugger;
     setFilter(filter);
   };
 
@@ -15,6 +14,8 @@ const Filter = (props) => {
   return (
     <Menu vertical>
       <Menu.Item
+        color = "blue"
+        active={props.filter === "all"}
         onClick={() => {
           handleItemClick("all");
         }}
@@ -22,6 +23,8 @@ const Filter = (props) => {
         Все
       </Menu.Item>
       <Menu.Item
+        color = "blue"
+        active={props.filter === "price_low"}
         onClick={() => {
           handleItemClick("price_low");
         }}
@@ -30,6 +33,8 @@ const Filter = (props) => {
       </Menu.Item>
 
       <Menu.Item
+        color = "blue"
+        active={props.filter === "price_high"}
         onClick={() => {
           handleItemClick("price_high");
         }}
@@ -38,6 +43,8 @@ const Filter = (props) => {
       </Menu.Item>
 
       <Menu.Item
+        color = "blue"
+        active={props.filter === "name"}
         onClick={() => {
           handleItemClick("name");
         }}

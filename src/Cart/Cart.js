@@ -7,17 +7,19 @@ const Cart = (props) => {
   };
 
   const items = props.cartBooks.map((book) => {
+  
     return (
       <Item>
         <Item.Image size="tiny" src={book.image} />
         <Item.Content>
-          <Item.Header as="a">{book.title}</Item.Header>
-          <Item.Extra>{book.author}</Item.Extra>
+    <Item.Header as="a">{book.title}</Item.Header>
+          <Item.Meta>{book.author}</Item.Meta>
+          <Item.Extra>({book.count}) шт.</Item.Extra>
           <Button
             onClick={() => {
               handleClick(book.id);
             }}
-            basic
+            
             color="red"
           >
             Удалить
