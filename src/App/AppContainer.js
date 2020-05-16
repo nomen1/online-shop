@@ -33,8 +33,23 @@ const filterBooks = (books, searchQuery) =>
   );
 
 const filterGenres =  (books, multiplyFilters) =>{
-  debugger
-  books.filter(item => multiplyFilters.includes(item.genre));
+  
+   return books.filter(item =>{ 
+    
+    let  currentIndex = multiplyFilters.indexOf(item.genre)
+   
+    if (currentIndex === -1) {
+      return false
+  } else {
+     return true
+  }
+
+  
+
+  
+  })
+  
+  
 }
 
 
@@ -49,8 +64,8 @@ const sortBy = (books, filter, query, multiplyFilters) => {
       return orderBy(books, "author", "asc");
     case "search":
       return filterBooks(books, query);
-      case "multiplayFilter":
-        return  filterGenres(books, multiplyFilters )
+    case "multiplayFilter":
+      return filterGenres(books, multiplyFilters )
     default:
       return books;
   }
