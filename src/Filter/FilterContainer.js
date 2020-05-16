@@ -1,4 +1,4 @@
-import { setFilterAC, setQueryТС } from "./../redux/filterReducer";
+import { setFilterAC, setQueryТС, handleFiltersТС } from "./../redux/filterReducer";
 import { connect } from "react-redux";
 import Filter from "./Filter";
 
@@ -16,6 +16,9 @@ const mapDispatchToProps = (dispatch) => {
     },
     setQuery: (filter, query) => {
       dispatch(setQueryТС(filter, query));
+    },
+    handleFilters: (genres,filterType) =>{
+      dispatch(handleFiltersТС(genres,filterType));
     }
   };
 };

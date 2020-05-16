@@ -1,6 +1,7 @@
 
 const SET_FILTER = "SET_FILTER";
 const SET_QUERY = "SET_QUERY"
+const SET_MULTIPLY_FILTERS = "SET_MULTIPLY_FILTERS"
 
 export const setFilterAC = (filter)=>{
     
@@ -8,6 +9,20 @@ export const setFilterAC = (filter)=>{
         type: SET_FILTER, filter
       };
  }
+
+
+ export const handleFiltersAC = (filters) => {
+  return {
+    type: SET_MULTIPLY_FILTERS,
+    filters
+  };
+};
+
+
+
+
+
+
 
 
  export  const setQueryAC = (query)=>{
@@ -25,13 +40,21 @@ export const setFilterAC = (filter)=>{
     }
 }
 
-
+export const handleFiltersТС = (genres, filterType) =>{
+    
+  return  (dispatch) => {
+     dispatch(handleFiltersAC(genres))
+    dispatch(setFilterAC(filterType))
+     
+  }
+}
 
 
 
 const initialState = {
     filter:"all",
-    searchQuery: " "
+    searchQuery: " ",
+    multiplyFilters: []
  }
 
 const filterReducer = (state = initialState, action) => {
@@ -49,7 +72,12 @@ const filterReducer = (state = initialState, action) => {
             ...state,
             searchQuery: action.query,
           };
- 
+      case SET_MULTIPLY_FILTERS:
+        return {
+          ...state,
+          multiplyFilters: action.filters,
+        };
+
   default:
      return state;
      }

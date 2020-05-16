@@ -32,7 +32,14 @@ const filterBooks = (books, searchQuery) =>
       o.author.toLowerCase().indexOf(searchQuery.toLowerCase()) >= 0
   );
 
-const sortBy = (books, filter, query) => {
+const filterGenres =  (books, multiplyFilters) =>{
+  debugger
+  books.filter(item => multiplyFilters.includes(item.genre));
+}
+
+
+
+const sortBy = (books, filter, query, multiplyFilters) => {
   switch (filter) {
     case "price_high":
       return orderBy(books, "price", "desc");
@@ -42,6 +49,8 @@ const sortBy = (books, filter, query) => {
       return orderBy(books, "author", "asc");
     case "search":
       return filterBooks(books, query);
+      case "multiplayFilter":
+        return  filterGenres(books, multiplyFilters )
     default:
       return books;
   }
@@ -52,7 +61,8 @@ const mapStateToProps = (state) => {
     books: sortBy(
       state.books.books,
       state.filter.filter,
-      state.filter.searchQuery
+      state.filter.searchQuery,
+      state.filter.multiplyFilters
     )
   };
 };
