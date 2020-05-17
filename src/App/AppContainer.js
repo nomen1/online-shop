@@ -33,24 +33,16 @@ const filterBooks = (books, searchQuery) =>
   );
 
 const filterGenres =  (books, multiplyFilters) =>{
-  
    return books.filter(item =>{ 
-    
-    let  currentIndex = multiplyFilters.indexOf(item.genre)
+    return multiplyFilters.includes(item.genre)
    
-    if (currentIndex === -1) {
-      return false
-  } else {
-     return true
-  }
-
-  
-
-  
   })
   
   
 }
+
+
+
 
 
 

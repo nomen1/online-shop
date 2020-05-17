@@ -11,7 +11,7 @@ export const setFilterAC = (filter)=>{
  }
 
 
- export const handleFiltersAC = (filters) => {
+ export const setMultipleFiltersAC = (filters) => {
   return {
     type: SET_MULTIPLY_FILTERS,
     filters
@@ -40,11 +40,11 @@ export const setFilterAC = (filter)=>{
     }
 }
 
-export const handleFiltersТС = (genres, filterType) =>{
+export const handleMultipleFiltersТС = (genres, filterType) =>{
     
   return  (dispatch) => {
-     dispatch(handleFiltersAC(genres))
-    dispatch(setFilterAC(filterType))
+     dispatch(setMultipleFiltersAC(genres))
+     dispatch(setFilterAC(filterType))
      
   }
 }

@@ -1,4 +1,4 @@
-import { Menu, Input, Checkbox } from "semantic-ui-react";
+import { Menu, Input, Checkbox, List } from "semantic-ui-react";
 import React from "react";
 import {useState} from "react"
 
@@ -19,7 +19,7 @@ const Filter = (props) => {
       }
 
       setChecked(newChecked)
-      props.handleFilters(newChecked, filterType)
+      props.handleMultipleFilters(newChecked, filterType)
       
     }
 
@@ -42,14 +42,13 @@ const Filter = (props) => {
 
   return (
     <Menu vertical>
+
      <Checkbox  onChange={() => handleToggle('classic', "multiplayFilter")} label='Классика' />
+      
      <Checkbox  onChange={() => handleToggle('scientific', "multiplayFilter")} label='Научная литература' />
-
-
-
-
-
-
+     
+     <Checkbox  onChange={() => handleToggle('modern', "multiplayFilter")} label='Современная литература' />
+  
 
       <Menu.Item
         color = "blue"
